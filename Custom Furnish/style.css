@@ -9,6 +9,10 @@ div{
     flex-direction: row;
     
 }
+.column{
+    display: flex;
+    flex-direction: column;
+}
 header{
     margin-left:104.5px;
     margin-right:104.5px;
@@ -50,14 +54,24 @@ header{
     border-width: 0.5px;  
     align-items: center;
     margin-top: 5px;
+    position: sticky;
+    top: 0px;
 }
-.navmenu a{ 
+.navmenu ul{
+    display: inline-block;
+}
+.navmenu ul li{
+    margin:2px;
+    list-style-type:none;
+    display: inline-block;
+}
+.navmenu ul li a{ 
     color:black;
     padding:10px;
     text-decoration: none;
     font-size: 13px;
 }
-.navmenu a:hover{
+.navmenu ul li a:hover{
     background-color: rgb(255, 255, 255);
 }
 .navmenu button{
@@ -80,6 +94,7 @@ header{
 #interior{
     width:760px;
     height:360px;
+    text-align: left;
 }
 .para{
     margin:22px;
@@ -137,6 +152,7 @@ input[type="text"]{
     margin:auto 110px;
     max-width: 100%;
     max-height:100%;
+    text-align: center;
 }
 .icons ul{
     margin:0px 150px;
@@ -164,20 +180,17 @@ h5{
 .backtotop a:hover{ 
     background-color: rgb(65, 65, 65); 
 }
-#foottags li{
+.foottags li{
     list-style-type: none;
     padding:4px ;
     margin:4px;
 }
-#foottags li a{
+.foottags li a{
     text-decoration: none;
     font-size: 12px;
     color:black; 
 }
-#headericons h6{
-    text-align:center;
-}
-#foottags li a:hover{
+.foottags li a:hover{
     color:red;
 }
 .follow{
@@ -201,7 +214,7 @@ h5{
     font-size: 17px;
     padding:7px;
     text-align: center;
-    width:100%;
+    bottom: 0;
 }
 .footer p{
     font-size: 13px;
