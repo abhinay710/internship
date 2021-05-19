@@ -1,0 +1,83 @@
+li a{
+    color:black;
+    
+}
+.top-bar{
+    width:100%;
+    padding:0px 5px;
+}
+.submenu li a:hover{
+    background-color: blanchedalmond;
+}
+p{
+    font-size: 14px;
+    padding:15px 15px;
+}
+
+.vertical.menu li a{
+    font-size: 13px;
+    padding:3px;
+    margin:5px;
+}
+.vertical.menu li a:hover{
+    color:red;
+}
+.backtotop {
+    text-align:center;
+    background-color: grey;
+    padding: 7px;
+}
+.backtotop a{
+    color:black;
+}
+.backtotop a:hover{
+    color:white;
+}
+.backtotop:hover{
+    background-color: rgb(65, 65, 65); 
+}
+.footer{
+    margin: 0;
+    background-color:rgb(90, 86, 86);  
+    text-align: center;
+    bottom: 0;
+     
+}
+.footer p{
+    font-size: 14px;
+    color:white; 
+    margin:0;
+    padding:4px 0;
+}
+#WhyCFIcons li p{
+    text-align: center;
+
+}
+#WhyCFIcons li img{
+    width:100px;
+    height:100px;
+    margin:2px;  
+}
+
+#icons{
+    margin:8px 0px;
+padding:0;
+}
+#icons img{
+    height:40px;
+    width:40px
+}
+
+.row{
+    margin:10px auto;
+}
+.subcontainer{
+    text-align: center;
+    background-color:#f5f4f4 ;
+    height:100%; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+    margin:auto 5px;
+}
