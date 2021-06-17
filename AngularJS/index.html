@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angular JS</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+</head>
+<body>
+    <div  ng-app="MyApp" ng-controller='MyController' ng-init="name='abhi'">
+    name: <input ng-model='name'></input>
+    <p >{{ name }}</p>
+    <button ng-click='onClick()'>hello</button>
+    <h1 ng-model='count'>{{ count }}</h1>
+    <select ng-model='select' ng-options='x for x in list'>
+    </select>
+    <span>{{select | uppercase}}</span>
+</div>
+<script src="script.js">
+
+</script>
+</body>
+</html>
